@@ -1,7 +1,9 @@
+#example1
 text=input("enter a string ")
 for char in text:
     print(char,end=" " )
 
+#example2
 text = input("Enter a string: ")
 def is_palindrome(string):
     left, right = 0, len(string) - 1
@@ -13,6 +15,7 @@ def is_palindrome(string):
     return True
 print(is_palindrome(text))
 
+#example3
 import time, sys
 start = time.time()
 squares = [x ** 2 for x in range(1,1000001)]
